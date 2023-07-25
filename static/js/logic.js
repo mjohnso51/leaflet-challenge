@@ -4,7 +4,7 @@ let Url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.ge
 // Create our map
 let myMap = L.map("map", {
     center: [37.09, -95.71],
-    zoom: 10,
+    zoom: 3,
 });
     
 // Create tile layer
